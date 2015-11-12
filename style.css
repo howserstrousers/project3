@@ -1,0 +1,70 @@
+
+
+	<style>
+		<meta charset="utf-8">
+		
+		<title>Escape Salon</title>
+		
+		* {
+			box-sizing: border-box;
+		}
+
+		html, body, nav, h1, h2, h3, h4, h5, h6 {
+			padding: 0;
+			margin: 0;
+			font-family: helvetica;
+		}
+
+		nav {
+			margin: 0 auto;
+			width:100%;
+			height: 100%;
+			margin-top: 5%;
+			list-style: none;
+		}
+
+		.about {
+			top: 5%;
+			left: 10%;
+		}
+
+		.services {
+			margin: 0 auto;
+			border: 2px solid green;
+			max-width: 20px;
+			float:right;
+			display:inline-block;
+			vertical-align: baseline;
+			word-break: break-all;
+			position:fixed;
+			text-align: center;
+		}
+
+		.staff {
+			margin: 0 auto;
+			border: 2px solid green;
+			max-width: 20px;
+			top: 40%;
+			float:left;
+			display:inline-block;
+			vertical-align: baseline;
+			word-break: break-all;
+			position:fixed;
+			text-align: center;
+		}
+
+		.contact {
+		
+		}
+
+		.logo {
+			margin: 0 auto;
+			width: 70%;
+			height: 100%;
+			text-align: center;
+			margin-top: 30%;
+			background-color: blue;
+			border: 2px dashed pink;
+		}
+
+	</style>
