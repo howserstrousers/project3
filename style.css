@@ -50,6 +50,7 @@
 			left: 5%;
 			width: 12px;
 			float:left;
+			font-weight: bold;
 		}
 
 		.services {
@@ -57,6 +58,7 @@
 			right: 5%;
 			width: 12px;
 			float: right;
+			font-weight: bold;
 		}
 
 		.staff {
@@ -64,6 +66,7 @@
 			left: 5%;
 			width: 12px;
 			float:left;
+			font-weight: bold;
 		}
 
 		.contact {
@@ -71,6 +74,7 @@
 			right: 5%;
 			width: 12px;
 			float: right;
+			font-weight: bold;
 		}
 
 		/*logo image*/
@@ -88,6 +92,7 @@
 			color: white;
 			text-align: center;
 			letter-spacing: 10px;
+			-web
 		}
 
 
