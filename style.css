@@ -35,7 +35,7 @@
 			margin: 0;
 			padding: 0;
 			border: 0;
-			font-size: 100%;
+			font-size: 1.1em;
 			word-break:break-all;
 			text-transform:uppercase;
 			text-align: center;
@@ -43,28 +43,28 @@
 
 		.about {
 			top: 5%;
-			left: 10%;
+			left: 5%;
 			width: 12px;
 			float:left;
 		}
 
 		.services {
 			top: 5%;
-			right: 10%;
+			right: 5%;
 			width: 12px;
 			float: right;
 		}
 
 		.staff {
 			bottom: 50%;
-			left: 10%;
+			left: 5%;
 			width: 12px;
 			float:left;
 		}
 
 		.contact {
 			bottom: 50%;
-			right: 10%;
+			right: 5%;
 			width: 12px;
 			float: right;
 		}
