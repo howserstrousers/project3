@@ -20,43 +20,56 @@
 			width:100%;
 			height: 100%;
 			margin-top: 5%;
-			list-style: none;
+		}
+		nav ul {
+			list-style-type: none;
+		}
+
+
+		/* NAV */
+		.nav-button {
+			position: fixed;
+			z-index: 100;
+			width: 12px;
+			line-height: 0.9 em;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			word-break:break-all;
+			text-transform:uppercase;
+			text-align: center;
 		}
 
 		.about {
 			top: 5%;
 			left: 10%;
+			width: 12px;
+			float:left;
 		}
 
 		.services {
-			margin: 0 auto;
-			border: 2px solid green;
-			max-width: 20px;
-			float:right;
-			display:inline-block;
-			vertical-align: baseline;
-			word-break: break-all;
-			position:fixed;
-			text-align: center;
+			top: 5%;
+			right: 10%;
+			width: 12px;
+			float: right;
 		}
 
 		.staff {
-			margin: 0 auto;
-			border: 2px solid green;
-			max-width: 20px;
-			top: 40%;
+			bottom: 50%;
+			left: 10%;
+			width: 12px;
 			float:left;
-			display:inline-block;
-			vertical-align: baseline;
-			word-break: break-all;
-			position:fixed;
-			text-align: center;
 		}
 
 		.contact {
-		
+			bottom: 50%;
+			right: 10%;
+			width: 12px;
+			float: right;
 		}
 
+		/* Home page Main */
 		.logo {
 			margin: 0 auto;
 			width: 70%;
