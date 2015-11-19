@@ -25,6 +25,10 @@
 			list-style-type: none;
 		}
 
+		body {
+			background-color: black;
+		}
+
 
 		/* NAV */
 		.nav-button {
@@ -39,6 +43,7 @@
 			word-break:break-all;
 			text-transform:uppercase;
 			text-align: center;
+			color: #ccc;
 		}
 
 		.about {
@@ -74,10 +79,10 @@
 			margin: 0 auto;
 			width: 70%;
 			height: 100%;
+			padding: 2%;
 			text-align: center;
 			margin-top: 30%;
-			background-color: blue;
-			border: 2px dashed pink;
+			color: white;
 		}
 
 	</style>
