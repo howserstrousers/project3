@@ -35,7 +35,6 @@
 			position: fixed;
 			z-index: 100;
 			width: 12px;
-			line-height: 0.9 em;
 			margin: 0;
 			padding: 0;
 			border: 0;
@@ -74,15 +73,22 @@
 			float: right;
 		}
 
-		/* Home page Main */
-		.logo {
+		/*logo image*/
+		.logo-home {
 			margin: 0 auto;
 			width: 70%;
-			height: 100%;
-			padding: 2%;
-			text-align: center;
-			margin-top: 30%;
-			color: white;
+			top: 10%;
+			max-width: 700px;
 		}
+		.logoimg {
+			width: 100%;
+		}
+
+		.logotype {
+			color: white;
+			text-align: center;
+			letter-spacing: 10px;
+		}
+
 
 	</style>
