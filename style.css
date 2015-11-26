@@ -122,7 +122,7 @@
 			font-weight: bold;
 		}
 
-		.services {
+		.staff {
 			top: 5%;
 			right: 5%;
 			width: 12px;
@@ -130,7 +130,7 @@
 			font-weight: bold;
 		}
 
-		.staff {
+		.services {
 			top: 50%;
 			left: 5%;
 			width: 12px;
@@ -166,25 +166,15 @@
 			padding-top: 5%;
 		}
 
-		/*services page*/
-			.servicescontainer {
-				margin:0 auto;
-				width:60%;
-				color: white;
-				top: 10%;
-			}
+		.homebutton {
+			margin: 0 auto;
+			top: 5%;
+			width: 30%;
+		}
 
-			.homebutton {
-				margin: 0 auto;
-				top: 5%;
-				width: 30%;
-
-
-			}
-
-			.logo {
-				width:100%;
-			}
+		.logo {
+			width:100%;
+		}
 
 
 
