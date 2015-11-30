@@ -209,6 +209,7 @@
 			top: 20%;
 			color:white;
 			text-align: left;
+			line-height: 150%
 		}
 
 		.number {
@@ -219,7 +220,6 @@
 			font-family: 'Roboto', Helvetica;
 			font-weight: 400;
 			color:white;
-			line-height: 200%;
 		}
 
 		/*servicespage*/
@@ -228,6 +228,8 @@
 			width:60%;
 			margin: 0 auto;
 			color: white;
+			font-size: 1.2rem;
+			line-height: 150%;
 		}
 
 		.hairskinnails h2 {
