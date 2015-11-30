@@ -222,6 +222,24 @@
 			line-height: 200%;
 		}
 
+		/*servicespage*/
+
+		.hairskinnails{
+			width:60%;
+			margin: 0 auto;
+			color: white;
+		}
+
+		.hairskinnails h2 {
+			color:white;
+			text-align: center;
+			padding: 3%;
+			font-family: 'Roboto', sans-serif;
+			font-weight: 700;
+			letter-spacing: 3px;
+		}
+
+
 		/*links*/
 
 		a:visited{
@@ -233,13 +251,16 @@
 
 		/*media screen shit*/
 		@media screen and (min-width:800px){
-			/*re-style css for screen less than 600px */
-			html { font-size: 16px; }
+			/*re-style css for screen less than 800px */
+			html { font-size: 16px; 
+			}
 
 			p {
 				-webkit-column-count: ;
 				column-count: 
-		}
+			}
+
+			ul
 
 
 	</style>
