@@ -86,10 +86,12 @@
 
 		h1 {
 			font-size: 3rem;
+			color:white;
 		}
 
 		h2 {
 			font-size: 2rem;
+			color:white;
 		}
 
 		p {
@@ -174,6 +176,42 @@
 
 		.logo {
 			width:100%;
+		}
+
+		/*stafflist*/
+
+		.people h1 {
+			color:white;
+			text-align: center;
+			padding: 3%;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.stafflist {
+			margin: 0 auto;
+			width:60%;
+			height: 100%;
+			padding: 1%;
+			top: 20%;
+			color:white;
+			text-align: left;
+		}
+
+		.number {
+			text-align:center;
+		}
+
+		.staff li {
+			font-family: 'Roboto', Helvetica;
+			font-weight: 400;
+			color:white;
+			line-height: 200%;
+		}
+
+		/*links*/
+
+		a:visited{
+			text-decoration: none;
 		}
 
 
