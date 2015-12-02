@@ -202,10 +202,13 @@
 			margin:auto;
 		}
 
-		.people p {
+		.people h3 {
 			text-align: center;
+			margin: auto;
 			border-bottom: 1px solid #ccc;
 			margin-bottom: 3%;
+			color:#ccc;
+			width: 60%
 		}
 
 		.stafflist {
@@ -216,7 +219,8 @@
 			top: 20%;
 			color:white;
 			text-align: left;
-			line-height: 150%
+			line-height: 150%;
+			font-size: 1.3rem
 		}
 
 		.number {
