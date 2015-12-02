@@ -118,7 +118,7 @@
 
 		.about {
 			top: 5%;
-			left: 5%;
+			left: 6%;
 			width: 12px;
 			float:left;
 			font-weight: bold;
@@ -126,7 +126,7 @@
 
 		.staff {
 			top: 5%;
-			right: 5%;
+			right: 6%;
 			width: 12px;
 			float: right;
 			font-weight: bold;
@@ -134,7 +134,7 @@
 
 		.services {
 			top: 50%;
-			left: 5%;
+			left: 6%;
 			width: 12px;
 			float:left;
 			font-weight: bold;
@@ -142,7 +142,7 @@
 
 		.contact {
 			top: 50%;
-			right: 5%;
+			right: 6%;
 			width: 12px;
 			float: right;
 			font-weight: bold;
@@ -251,6 +251,8 @@
 			font-weight: 700;
 			letter-spacing: 3px;
 		}
+
+		
 
 		/*contact*/
 
