@@ -163,7 +163,7 @@
 
 		.container p{
 			color: white;
-			width: 60%;
+			width: 65%;
 			margin: 0 auto;
 			font-size: 1.2rem;
 			line-height: 120%
@@ -201,6 +201,7 @@
 
 		.people {
 			margin:auto;
+
 		}
 
 		.people h3 {
@@ -214,7 +215,7 @@
 
 		.stafflist {
 			margin: auto;
-			width:60%;
+			width:75%;
 			padding: 1%;
 			margin-bottom:2%;
 			top: 20%;
@@ -239,7 +240,7 @@
 
 		.hairskinnails{
 			width:60%;
-			margin: 0 auto;
+			margin: 3% auto;
 			color: white;
 			font-size: 1.2rem;
 			line-height: 150%;
@@ -254,6 +255,28 @@
 			letter-spacing: 3px;
 		}
 
+		.hairskinnails h3 {
+			margin: auto;
+			text-align: center;
+			margin-top: 3%;
+			margin-bottom: 3%;
+			color:#ccc;
+			width:100%;
+			border-top: 1px dashed #ccc;
+			border-bottom: 1px dashed #ccc;
+		}
+
+		.hair {
+
+		}
+
+		.skin {
+
+		}
+
+		.nails {
+
+		}
 		
 
 		/*contact*/
@@ -316,12 +339,47 @@
 		/*media screen shit*/
 		@media screen and (min-width:800px){
 			/*re-style css for screen less than 800px */
-			html { font-size: 16px; 
+			html { font-size: 12px; 
 			}
 
 			p {
 				-webkit-column-count: ;
 				column-count: 
+			}
+
+			.hairskinnails {
+				width:75%;
+				height:100%;
+
+			}
+
+			.hair {
+				width:25%;
+				float: left;
+				border-right: 1px dashed #ccc;
+				border-left: 1px dashed #ccc;
+				margin:1%;
+				padding:2%;
+				margin-top: 0;
+			}
+
+			.skin {
+				width:25%;
+				float: left;
+				border-right: 1px dashed #ccc;
+				border-left: 1px dashed #ccc;
+				margin:1%;
+				padding:2%;
+			}
+
+			.nails {
+				width:25%;
+				float: left;
+				border-right: 1px dashed #ccc;
+				border-left: 1px dashed #ccc;
+				margin:1%;
+				padding:2%;
+
 			}
 		}
 
