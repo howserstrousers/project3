@@ -223,7 +223,8 @@
 			text-align: left;
 			line-height: 150%;
 			font-size: 1.3rem;
-			border-bottom: 1px dashed #ccc;
+			border: 1px dashed #ccc;
+			background-color: #ccc;
 		}
 
 		.number {
@@ -248,17 +249,17 @@
 
 		.hair {
 			margin: 0 auto;
-			width:70%;
+			width:65%;
 		}
 
 		.skin {
 			margin: 0 auto;
-			width:70%;
+			width:65%;
 		}
 
 		.nails {
 			margin: 0 auto;
-			width:70%;
+			width:65%;
 		}
 
 		.hairskinnails h2 {
@@ -277,6 +278,7 @@
 			margin-bottom: 3%;
 			color:#ccc;
 			border: 1px dashed #ccc;
+			box-shadow: -2px 2px 4px 2px rgba(255,255,255,0.5);
 		}
 		
 
