@@ -164,12 +164,14 @@
 		}
 
 		.container p{
-			color: white;
 			width: 65%;
 			margin: 0 auto;
 			font-size: 1.2rem;
 			line-height: 140%;
 			max-width:800px;
+			padding: 3%;
+			color: #ddd;
+			background-color: rgba(192,192,192,.5);
 		}
 
 		.homebutton {
@@ -180,45 +182,51 @@
 		}
 
 		.escapename {
+			margin:0 auto;
 			text-align: center;
 			font-family: 'Roboto', sans-serif;
 			font-weight: 700;
-			padding: 3%;
+			width: 70%;
+			max-width: 400px;
+			padding-bottom: 2%;
+			padding-top: 2%;
 			letter-spacing: 3px;
+			border-bottom: 1px dashed #ddd;
 		}
 
 		/*stafflist*/
 
 		.people {
 			margin:0 auto;
-			width:75%;
-			max-width: 1024px;
+			width:70%;
 		}
 
 		.people h3 {
 			text-align: center;
-			margin: auto;
-			/*border-bottom: 1px solid #ccc;*/
+			margin: 0 auto;
+			padding-top: 2%;
+			padding-bottom: 2%;
+			border-bottom: 1px dashed #ccc;
 			margin-bottom: 3%;
 			color:#ccc;
-			width: 60%
+			width:100%;
+			max-width: 400px;
 		}
 
 		.stafflist {
 			margin: 0 auto;
 			color:white;
 			line-height: 150%;
-			font-size: 1.3rem;
+			font-size: 1.2rem;
 			max-width: 400px;
 			display:block;
 		}
 
 		.person li{
+			margin: 5% auto;
 			padding: 2%;
-			margin: 2%;
-			color: black;
-			background-color: #ccc;
-			text-align: center;
+			background-color: rgba(192,192,192,.5);
+			text-align: center;	
 
 		}
 
@@ -231,71 +239,108 @@
 
 		/*servicespage*/
 
-		.hairskinnails{
-			width:100%;
-			margin: 0 auto;
-			color: white;
-			font-size: 1.2rem;
-			line-height: 150%;
-		}
-
 		.hair {
 			margin: 0 auto;
-			width:65%;
+			width: 70%;
+			max-width: 400px;
+			margin: 2% auto;
+		}
+
+		.hair ul{
+			padding: 3%;
+			color: #ddd;
+			background-color: rgba(192,192,192,.5);
+			font-size: 1.2rem;
+			line-height: 140%;
+		}
+
+		.hair h3 {
+			margin: 0 auto;
+			text-align: center;
+			color:#ccc;
+			font-size: 1.3rem;
+			border-bottom: 1px dashed #ccc;
+			padding-top: 0; 
+			width: 100%;
+			padding-bottom: 2%;
 		}
 
 		.skin {
 			margin: 0 auto;
-			width:65%;
+			width: 70%;
+			max-width: 400px;
+			margin: 2% auto;
+		}
+
+		.skin ul{
+			padding: 3%;
+			color: #ddd;
+			background-color: rgba(192,192,192,.5);
+			font-size: 1.2rem;
+			line-height: 140%;
+		}
+
+		.skin h3 {
+			margin: auto;
+			text-align: center;
+			color:#ccc;
+			font-size: 1.3rem;
+			border-top: 1px dashed #ccc;
+			border-bottom: 1px dashed #ccc;
+			padding-top: 2%; 
+			padding-bottom: 2%;
+			width: 100%;
 		}
 
 		.nails {
 			margin: 0 auto;
-			width:65%;
+			width: 70%;
+			max-width: 400px;
+			margin-bottom: 4%;
 		}
 
-		.hairskinnails h3 {
+		.nails ul{
+			margin: 2% auto;
+			padding: 3%;
+			color: #ddd;
+			background-color: rgba(192,192,192,.5);
+			font-size: 1.2rem;
+			line-height: 140%;
+		}
+
+		.nails h3 {
 			margin: auto;
 			text-align: center;
-			margin-top: 3%;
-			margin-bottom: 3%;
 			color:#ccc;
-			border: 1px dashed #ccc;
-			box-shadow: -2px 2px 4px 2px rgba(255,255,255,0.5);
+			font-size: 1.3rem;
+			border-top: 1px dashed #ccc;
+			border-bottom: 1px dashed #ccc;
+			padding-top: 0; 
+			width: 100%;
+			padding-top: 2%; 
+			padding-bottom: 2%;
 		}
 		
 
 		/*contact*/
 
-		.contactinfo {
-			margin: 0 auto;
-			color: white;
-			font-size: 1rem;
-			max-width: 1024px;
-		}
-
 		.map {
 			margin:0 auto;
-			width:100%;
+			width:70%;
+			max-width: 400px;
 			text-align: center;
+			background-color: rgba(192,192,192,.5);
 		}
 
 		.address {
-			padding-bottom: 2%
+			padding-bottom: 3%;
 			margin-top:3%;
-			padding-top: 3%
+			color: white;
 		}
 
 		.map h3 {
 			color: #ccc;
 			padding: 3%;
-		}
-
-		.tostaff {
-			padding-bottom: 5%;
-			width: 75%;
-			border-bottom: 1px dashed #ccc;
-			margin: 0 auto;
 		}
 
 		/*links*/
@@ -319,7 +364,7 @@
 		/*media screen shit*/
 		@media screen and (min-width:800px){
 			/*re-style css for screen less than 800px */
-			html { font-size: 12px; 
+			html { font-size: 14px; 
 			}
 
 			p {
@@ -327,22 +372,7 @@
 				column-count: 
 			}
 
-			.hairskinnails {
-				margin: 0 auto;
-			}
-
-			.hair {
-				width: 40%;
-			}
-
-			.skin {
-				width:40%;
-
-			}
-
-			.nails {
-				width:40%;
-			}
+			
 		}
 
 		@media screen and (min-width: 1024px){
