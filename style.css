@@ -170,7 +170,7 @@
 			font-size: 1.2rem;
 			line-height: 140%;
 			max-width:800px;
-			padding: 3%;
+			padding: 1%;
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 		}
@@ -357,6 +357,18 @@
 
 		.people a{
 			color:white;
+		}
+
+		/*footer*/
+
+		.footer {
+			margin: 0 auto;
+			height:100%;
+			margin-top:35%;
+			margin-bottom: 3%;
+			color:white;
+			text-align: center;
+			text-transform: uppercase;
 		}
 
 
