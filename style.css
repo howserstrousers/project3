@@ -166,6 +166,7 @@
 		.container p{
 			width: 65%;
 			margin: 0 auto;
+			margin-top: 2%;
 			font-size: 1.2rem;
 			line-height: 140%;
 			max-width:800px;
@@ -243,7 +244,6 @@
 			margin: 0 auto;
 			width: 70%;
 			max-width: 400px;
-			margin: 2% auto;
 		}
 
 		.hair ul{
@@ -251,7 +251,9 @@
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 			font-size: 1.2rem;
-			line-height: 140%;
+			line-height: 170%;
+			margin: 1% auto;
+			width: 80%;
 		}
 
 		.hair h3 {
@@ -263,13 +265,13 @@
 			padding-top: 0; 
 			width: 100%;
 			padding-bottom: 2%;
+			padding-top: 2%;
 		}
 
 		.skin {
 			margin: 0 auto;
 			width: 70%;
 			max-width: 400px;
-			margin: 2% auto;
 		}
 
 		.skin ul{
@@ -277,7 +279,9 @@
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 			font-size: 1.2rem;
-			line-height: 140%;
+			line-height: 170%;
+			margin: 1% auto;
+			width: 80%;
 		}
 
 		.skin h3 {
@@ -300,12 +304,14 @@
 		}
 
 		.nails ul{
-			margin: 2% auto;
 			padding: 3%;
+			width: 80%;
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 			font-size: 1.2rem;
-			line-height: 140%;
+			line-height: 170%;
+			margin: 1% auto;
+
 		}
 
 		.nails h3 {
