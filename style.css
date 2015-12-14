@@ -170,7 +170,7 @@
 			font-size: 1.2rem;
 			line-height: 140%;
 			max-width:800px;
-			padding: 1%;
+			padding: 2%;
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 		}
@@ -221,21 +221,19 @@
 			font-size: 1.2rem;
 			max-width: 400px;
 			display:block;
+
 		}
 
 		.person li{
-			margin: 5% auto;
-			padding: 2%;
+			padding: 5%;
 			background-color: rgba(192,192,192,.5);
-			text-align: center;	
-
-		}
-
-		.person ul{
 			margin: 0 auto;
+			text-align: center;
+
 		}
 
-		.number {
+		.person {
+			
 		}
 
 		/*servicespage*/
@@ -248,6 +246,8 @@
 
 		.hair ul{
 			padding: 3%;
+			padding-left: 10%;
+			padding-right: 10%;
 			color: #ddd;
 			background-color: rgba(192,192,192,.5);
 			font-size: 1.2rem;
@@ -260,7 +260,7 @@
 			margin: 0 auto;
 			text-align: center;
 			color:#ccc;
-			font-size: 1.3rem;
+			font-size: 1.1rem;
 			border-bottom: 1px dashed #ccc;
 			padding-top: 0; 
 			width: 100%;
@@ -282,13 +282,16 @@
 			line-height: 170%;
 			margin: 1% auto;
 			width: 80%;
+
+			padding-left: 10%;
+			padding-right: 10%;
 		}
 
 		.skin h3 {
 			margin: auto;
 			text-align: center;
 			color:#ccc;
-			font-size: 1.3rem;
+			font-size: 1.1rem;
 			border-top: 1px dashed #ccc;
 			border-bottom: 1px dashed #ccc;
 			padding-top: 2%; 
@@ -312,13 +315,15 @@
 			line-height: 170%;
 			margin: 1% auto;
 
+			padding-left: 10%;
+			padding-right: 10%;
 		}
 
 		.nails h3 {
 			margin: auto;
 			text-align: center;
 			color:#ccc;
-			font-size: 1.3rem;
+			font-size: 1.1rem;
 			border-top: 1px dashed #ccc;
 			border-bottom: 1px dashed #ccc;
 			padding-top: 0; 
@@ -336,12 +341,21 @@
 			max-width: 400px;
 			text-align: center;
 			background-color: rgba(192,192,192,.5);
+			padding-bottom: 3%;
 		}
 
 		.address {
-			padding-bottom: 3%;
+			padding: 2%;
 			margin-top:3%;
 			color: white;
+		}
+
+		.address p{
+			font-size: 1.2rem;
+		}
+
+		.location{
+			font-size: 
 		}
 
 		.map h3 {
@@ -352,7 +366,7 @@
 		/*links*/
 
 		a:visited{
-			color:white;
+			color:#ddd;
 		}
 
 		.people a{
@@ -374,7 +388,8 @@
 
 		/*media screen to center lists*/
 		@media screen and (min-width: 500px) {
-		
+			
+
 
 		}
 
