@@ -148,6 +148,11 @@
 			font-weight: bold;
 		}
 
+		.navbutton a {
+			color:#ddd;
+			text-decoration: none;
+		}
+
 		/*logo image index page*/
 
 		.logo-home {
@@ -369,22 +374,11 @@
 			color:#ddd;
 		}
 
+
+
 		.people a{
 			color:white;
 		}
-
-		/*footer*/
-
-		.footer {
-			margin: 0 auto;
-			height:100%;
-			margin-top:35%;
-			margin-bottom: 3%;
-			color:white;
-			text-align: center;
-			text-transform: uppercase;
-		}
-
 
 		/*media screen to center lists*/
 		@media screen and (min-width: 500px) {
